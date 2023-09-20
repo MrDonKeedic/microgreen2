@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microgreens</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Microgreens Timer/Table</h1>
+    </div>
+
+    <!-- Broccoli -->
+    <div class="Broccoli">
+        <h2>Broccoli</h2>
+        <button id="setPlantDate-Broccoli">Set Plant Date</button><button id="clearTable-Broccoli">Clear Table</button>
+        <div id="table-container-Broccoli"></div>
+    </div>
+
+    <!-- Clover -->
+    <div class="Clover">
+        <h2>Clover</h2>
+        <button id="setPlantDate-Clover">Set Plant Date</button><button id="clearTable-Clover">Clear
+            Table</button>
+        <div id="table-container-Clover"></div>
+    </div>
+
+    <!-- Radish -->
+    <div class="Radish">
+        <h2>Radish</h2>
+        <button id="setPlantDate-Radish">Set Plant Date</button><button id="clearTable-Radish">Clear
+            Table</button>
+        <div id="table-container-Radish"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then((registration) => console.log('Service Worker registered with scope:', registration.scope))
+                .catch((error) => console.error('Service Worker registration failed:', error));
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+{
+    "name": "My Microgreens App",
+    "short_name": "Microgreens",
+    "description": "Track your microgreens planting and growth progress.",
+    "start_url": "/index.html", // Adjust this URL based on your project
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "icons": [
+        {
+            "src": "icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

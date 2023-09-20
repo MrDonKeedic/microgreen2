@@ -1,0 +1,28 @@
+.header {
+    text-align: center;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+
+.Broccoli,
+.Clover,
+.Radish {
+    text-align: center;
+    margin: 0 auto;
+    /* This centers the div horizontally */
+    padding-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    margin-bottom: 25px;
+}
